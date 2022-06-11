@@ -1,0 +1,9 @@
+.element {
+    width: 282px;
+    height: 361px;
+    color: #000;
+    list-style: none;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+}

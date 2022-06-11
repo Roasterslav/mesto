@@ -1,0 +1,27 @@
+.profile {
+    margin: 0 auto;
+    max-width: 880px;
+    max-height: 120px;
+    display: grid;
+    grid-template-columns: 120px 3fr 1fr;
+    color: #fff;
+    align-items: center;
+}
+
+@media (max-width: 1023px) {
+    .profile {
+        max-width: 880px;
+        max-height: 120px;
+        grid-template-columns: 120px 3fr 1fr;
+    } 
+}
+
+@media (max-width: 767px) {
+    .profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 282px;
+        max-height: 286px;
+    }
+}
