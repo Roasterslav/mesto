@@ -1,9 +1,14 @@
-console.log("Helo, epta");
+/* console.log("Helo, epta"); */
 
 const popup = document.querySelector('.popup');
 const editButton = document.querySelector('.profile__edit-button-img');
 const closeButton = document.querySelector('.popup__button-close');
-const saveButton = document.querySelector('popup__button-save');
+
+/* const disableLike = document.querySelector('.element__button-like_disable');
+const activeLike = document.querySelector('.element__button-like_active');
+const likeButton = document.querySelector('.element__button-like'); */
+
+/* const saveButton = document.querySelector('popup__button-save'); */
 
 const togglePopup = function () {
     popup.classList.toggle('popup_opened');
@@ -11,3 +16,26 @@ const togglePopup = function () {
 
 editButton.addEventListener('click', togglePopup);
 closeButton.addEventListener('click', togglePopup);
+
+
+let saveButton = document.querySelector('.popup__button-save');
+
+let nameInput = document.querySelector('.popup__input-name');
+let jobInput = document.querySelector('.popup__input-about');
+
+let nameProfile = document.querySelector('.profile__title');
+let jobProfile = document.querySelector('.profile__subtitle');
+
+function valuePopup () {
+    nameInput.setAttribute ('value', popup__input-name);
+    jobInput.setAttribute ('value', popup__input-about);
+}
+
+function formSubmitHandler (evt) {
+    evt.preventDefault();
+    nameProfile.textContent = nameInput.value;
+    jobProfile.textContent = jobInput.value;
+    togglePopup ();
+}
+
+saveButton.addEventListener('submit', formSubmitHandler);

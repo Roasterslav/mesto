@@ -1,17 +1,12 @@
-.profile__edit-button-img:hover {
-    opacity: ;
-}
-
 .profile__edit-button-img {
     width: 24px;
     height: 24px;
     padding-left: 18px;
 }
 
-@media (max-width: 1023px) {
-    .profile__edit-button-img {
-
-    } 
+.profile__edit-button-img:hover {
+    opacity: 0.6;
+    cursor: pointer;
 }
 
 @media (max-width: 767px) {
