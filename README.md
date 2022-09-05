@@ -9,7 +9,7 @@
 
 ## **Ссылка на страницу**
 
-[Mesto](https://roasterslav.github.io/mesto/)
+[Mesto](https://roasterslav.github.io/mesto/index.html)
 
 ## **О проекте**
 
