@@ -5,15 +5,6 @@
     padding: 45px 0 40px 0;
 }
 
-@media (max-width: 1023px) {
-    .header {
-        max-width: 880px;
-        max-height: 74px;
-        margin: 0 auto;
-        padding: 45px 0 40px 0;
-    }   
-}
-
 @media (max-width: 767px) {
     .header {
         max-width: 320px;
