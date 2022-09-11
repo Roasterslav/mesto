@@ -1,17 +1,16 @@
 .profile__info {
-    min-width: 336px;
-    min-height: 73px;
-    padding-left: 30px;
+    max-width: 336px;
+    display: grid;
+    grid-template-columns: auto 24px;
+    align-items: center;
+    grid-row-gap: 6px;
 }
 
 @media (max-width: 767px) {
     .profile__info {
-        padding: 0;
-        min-width: 282px;
-        width: 100%;
-        min-height: 54px;
-        height: 100%;
-        margin: 26px auto 36px;
-    }
-     
+        padding-top: 26px;
+        grid-template-columns: auto 18px;
+        max-width: 282px;
+        grid-column-gap: 10px;
+    } 
 }

@@ -1,27 +1,21 @@
 .profile {
+    width: 100%;
     margin: 0 auto;
+    padding-top: 40px;
     max-width: 880px;
-    max-height: 120px;
     display: grid;
-    grid-template-columns: 120px 3fr 1fr;
+    grid-template-columns: 120px 1fr 150px;
     color: #fff;
     align-items: center;
-}
-
-@media (max-width: 1023px) {
-    .profile {
-        max-width: 880px;
-        max-height: 120px;
-        grid-template-columns: 120px 3fr 1fr;
-    } 
+    column-gap: 30px;
 }
 
 @media (max-width: 767px) {
     .profile {
+        padding-top: 42px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         max-width: 282px;
-        max-height: 286px;
     }
 }

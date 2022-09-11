@@ -1,0 +1,20 @@
+.element__button-like {
+    background-color: white;
+    background-image: url(../../../images/disablelike.svg);
+    box-sizing: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    width: 22px;
+    height: 19px;
+    padding: 0;
+    margin: 30px 21px 0 0;
+    color: black;
+}
+
+.element__button-like:hover {
+    margin: 30px 20px 0 0;
+    opacity: 0.5;
+    cursor: pointer;
+}
+

@@ -1,0 +1,11 @@
+.element__nav {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+@media (max-width: 767px) {
+    .element__nav {
+        margin: 0 auto;
+    }  
+}
