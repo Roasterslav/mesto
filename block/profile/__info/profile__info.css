@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: auto 24px;
     align-items: center;
-    grid-row-gap: 6px;
+    row-gap: 6px;
 }
 
 @media (max-width: 767px) {
@@ -11,6 +11,6 @@
         padding-top: 26px;
         grid-template-columns: auto 18px;
         max-width: 282px;
-        grid-column-gap: 10px;
+        column-gap: 10px;
     } 
 }

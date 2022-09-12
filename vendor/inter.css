@@ -6,6 +6,14 @@
   url("./Inter-Regular.woff") format("woff"),
   url("./Inter-Regular.woff2") format("woff2");
 }
+@font-face {
+  font-family: 'Inter';
+  font-weight: medium;
+  font-weight: 500;
+  src: local('Inter'),
+  url("./Inter-Medium.woff") format("woff"),
+  url("./Inter-Medium.woff2") format("woff2");
+}
 
 @font-face {
   font-family: 'Inter';

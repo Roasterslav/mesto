@@ -13,7 +13,6 @@
 }
 
 .element__button-like:hover {
-    margin: 30px 20px 0 0;
     opacity: 0.5;
     cursor: pointer;
 }
